@@ -1,0 +1,21 @@
+---
+layout: post
+author: ArisWells
+title: "Aris Wells's final project sketch 1"
+---
+
+I wasn't 100% sure how I was supposed to submit my sketch so I'm submitting it as a new post.
+
+The player can control the turtle with the following keys in an inverted T to move north, sound, east and west.
+Only problem is that the player turtle rotates to face in one of the cardinal directions then travels forward. If two keys are pressed at the same time (especially south and east) the turtle will rotate very erratically
+     ___
+ ___|_E_|___
+|_S_|_D_|_F_|
+
+For some reason I use ESDF instead of the more common WASD, but in a future update I want to give the user an option between multiple control schemes.
+
+For this sketch I generated part of the environment manually, but I believe I will generate the boundry between terrains randomly instead.
+So there will be functions to generate straight and branching level. But more importantly I need to code a mechanism for reseting the player's position and moving to a new level.
+
+#sketch 1
+<iframe src="https://trinket.io/embed/python/fd63bbad77" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
